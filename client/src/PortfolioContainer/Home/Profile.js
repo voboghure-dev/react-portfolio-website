@@ -1,5 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
+import './Profile.css';
 
 function Profile(props) {
   return (
