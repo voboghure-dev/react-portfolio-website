@@ -7,18 +7,20 @@ function Profile(props) {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <a href='https://github.com/voboghure-dev'>
-              <i className='fab fa-github-square share'></i>
-            </a>
-            <a href='https://twitter.com/voboghure_dev'>
-              <i className='fab fa-twitter-square'></i>
-            </a>
-            <a href='https://www.linkedin.com/in/tapankumerdas'>
-              <i className='fab fa-linkedin'></i>
-            </a>
-            <a href='https://www.instagram.com/voboghure.dev/'>
-              <i className='fab fa-instagram-square'></i>
-            </a>
+            <div className='colz-icon'>
+              <a href='https://github.com/voboghure-dev'>
+                <i className='fab fa-github-square share'></i>
+              </a>
+              <a href='https://twitter.com/voboghure_dev'>
+                <i className='fab fa-twitter-square'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/tapankumerdas'>
+                <i className='fab fa-linkedin'></i>
+              </a>
+              <a href='https://www.instagram.com/voboghure.dev/'>
+                <i className='fab fa-instagram-square'></i>
+              </a>
+            </div>
           </div>
           <div className='profile-details-name'>
             <span className='primary-text'>
@@ -52,15 +54,15 @@ function Profile(props) {
               </span>
             </span>
           </div>
-					<div className='profile-options'>
-						<button className='btn primary-btn'>
-							{" "}
-							Hire Me{" "}
-						</button>
-						<a href='Tapan.pdf' download='Tapan.pdf'>
-							<button className='btn highlighted-btn'>Get Resume</button>
-						</a>
-					</div>
+          <div className='profile-options'>
+            <button className='btn primary-btn'> Hire Me </button>
+            <a href='Tapan.pdf' download='Tapan.pdf'>
+              <button className='btn highlighted-btn'>Get Resume</button>
+            </a>
+          </div>
+        </div>
+        <div className='profile-picture'>
+          <div className='profile-picture-background'></div>
         </div>
       </div>
     </div>
